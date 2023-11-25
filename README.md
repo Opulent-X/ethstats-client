@@ -19,7 +19,7 @@ This is the backend service which runs along with ethereum nodes and tracks the 
 Clone the repository, install node dependencies, and run the pm2 daemon.
 
 ```bash
-git clone https://github.com/goerli/ethstats-client.git
+git clone https://github.com/Opulent-X/ethstats-client.git
 cd ethstats-client/
 npm install
 sudo npm install -g pm2
