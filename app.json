@@ -16,7 +16,7 @@
       "LISTENING_PORT"  : "30303",
       "INSTANCE_NAME"   : "BETA Connect Node",
       "CONTACT_DETAILS" : "beta@opulent-x.com",
-      "WS_SERVER"       : "wss://rpc.ethstats.net",
+      "WS_SERVER"       : "wss://18.169.237.59:3030",
       "WS_SECRET"       : "Pogi_Si_Hans_Ko@123",
       "VERBOSITY"       : 2
     }
