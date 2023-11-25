@@ -40,20 +40,21 @@ Configure the app modifying [app.json](/app.json).
     "max_restarts"      : 10,
     "exec_interpreter"  : "node",
     "exec_mode"         : "fork_mode",
-    "env":
-    {
-      "NODE_ENV"        : "production",
-      "RPC_HOST"        : "localhost",
-      "RPC_PORT"        : "8545",
-      "LISTENING_PORT"  : "30303",
-      "INSTANCE_NAME"   : "My Besu Goerli Node 1337",
-      "CONTACT_DETAILS" : "goerli@example.com",
-      "WS_SERVER"       : "ws://stats.goerli.net:3000",
-      "WS_SECRET"       : "XXXXXXXXXX",
-      "VERBOSITY"       : 2
-    }
+   
   }
 ]
+```
+And also this the environment file (.env)
+
+```config
+RPC_HOST=localhost
+RPC_PORT=8545
+LISTENING_PORT=30303
+INSTANCE_NAME=BETA Connect Node
+CONTACT_DETAILS=beta@opulent-x.com
+WS_SERVER=ws://localhost:3030
+WS_SECRET=beta-net-stats-has-a-secret
+VERBOSITY= 2
 ```
 
 Ask in Gitter for the secret: https://gitter.im/goerli/testnet
